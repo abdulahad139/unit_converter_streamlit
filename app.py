@@ -47,3 +47,11 @@ value = st.number_input("Enter a value to convert")
 if st.button("Convert"):
                       result = convert_units(category , value , unit)
                       st.success(f"The result is {result:.2f}")
+
+
+st.markdown("""
+<hr style="margin-top: 2rem; margin-bottom: 1rem;">
+<div style="text-align: center; color: purple;">
+  Built with ❤️ by Kounain Aftab
+</div>
+""", unsafe_allow_html=True)
