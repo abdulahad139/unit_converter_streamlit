@@ -52,6 +52,6 @@ if st.button("Convert"):
 st.markdown("""
 <hr style="margin-top: 2rem; margin-bottom: 1rem;">
 <div style="text-align: center; color: purple;">
-  Built with ❤️ by Kounain Aftab
+  Built by Abdul Ahad
 </div>
 """, unsafe_allow_html=True)
